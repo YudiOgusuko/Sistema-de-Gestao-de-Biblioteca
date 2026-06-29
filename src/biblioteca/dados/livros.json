@@ -1,0 +1,90 @@
+[
+  {
+    "isbn": "02981207-0270-4f2e-b880-70c443c13601",
+    "titulo": "Harry Potter e o Cálice de Fogo",
+    "autor": "J.K Rowling",
+    "anoDePublicacao": 2000,
+    "genero": "Fantasia",
+    "disponivel": true
+  },
+  {
+    "isbn": "a960f6ad-c725-4903-a636-dc1f1fa800ec",
+    "titulo": "Game of Thrones",
+    "autor": "George R. R. Martin",
+    "anoDePublicacao": 1996,
+    "genero": "Fantasia",
+    "disponivel": false
+  },
+  {
+    "isbn": "95fd618b-b71b-446d-82d0-1a2aab6649b4",
+    "titulo": "Harry Potter e a Pedra Filosofal",
+    "autor": "J.K Rowling",
+    "anoDePublicacao": 1997,
+    "genero": "Fantasia",
+    "disponivel": false
+  },
+  {
+    "isbn": "3e03d661-b6d5-4d92-913b-a08229d78afa",
+    "titulo": "Batman Detective Comics #27",
+    "autor": "Bob Kane",
+    "anoDePublicacao": 1939,
+    "genero": "Mistério",
+    "disponivel": true
+  },
+  {
+    "isbn": "7527b73b-0899-4862-a190-5454e0406cc2",
+    "titulo": "O engenhoso fidalgo dom Quixote de la Mancha",
+    "autor": "Miguel de Cervantes",
+    "anoDePublicacao": 1605,
+    "genero": "Romance",
+    "disponivel": true
+  },
+  {
+    "isbn": "41526eb2-179a-4472-bf33-606794141e39",
+    "titulo": "Crime e Castigo",
+    "autor": "Fiódor Dostoiévski",
+    "anoDePublicacao": 1866,
+    "genero": "Clássicos",
+    "disponivel": true
+  },
+  {
+    "isbn": "5024d756-5881-4852-8e0e-d71b00496c48",
+    "titulo": "1984",
+    "autor": "George Orwell",
+    "anoDePublicacao": 1949,
+    "genero": "Ficção Científica",
+    "disponivel": true
+  },
+  {
+    "isbn": "82de1be0-9969-4a9d-b7a7-c245db5bbab2",
+    "titulo": "Duna",
+    "autor": "Frank Herbert",
+    "anoDePublicacao": 1965,
+    "genero": "Ficção Científica",
+    "disponivel": true
+  },
+  {
+    "isbn": "977a43ec-70fe-404f-9d6c-559fa32fcb2b",
+    "titulo": "Harry Potter e o Prisioneiro de Askaban",
+    "autor": "J.K Rowling",
+    "anoDePublicacao": 1999,
+    "genero": "Fantasia",
+    "disponivel": false
+  },
+  {
+    "isbn": "bc82919c-9901-4df9-b8b1-f808748bf968",
+    "titulo": "O Diário de Anne Frank",
+    "autor": "Anne Frank",
+    "anoDePublicacao": 1947,
+    "genero": "Religião",
+    "disponivel": true
+  },
+  {
+    "isbn": "f2e438e7-c306-4600-bab0-eb799546a7c3",
+    "titulo": "O Pequeno Príncipe",
+    "autor": "Antoine de Saint-Exupéry",
+    "anoDePublicacao": 1943,
+    "genero": "Fábula",
+    "disponivel": false
+  }
+]

@@ -1,0 +1,61 @@
+[
+  {
+    "id": "f81fc470-f5d8-4e4b-a4ed-00b883080d3f",
+    "isbnLivro": "a960f6ad-c725-4903-a636-dc1f1fa800ec",
+    "idUsuario": "28381a35-30f7-489b-ae7e-e80cb3c4d99f",
+    "dataEmprestimo": "2026-06-29",
+    "dataPrevistaDevolucao": "2026-07-13",
+    "status": "ATIVO"
+  },
+  {
+    "id": "f90998db-eeca-4605-b4f2-b4d6ae395eb7",
+    "isbnLivro": "95fd618b-b71b-446d-82d0-1a2aab6649b4",
+    "idUsuario": "4346898a-2b04-4cf9-b7fe-d911f8289658",
+    "dataEmprestimo": "2026-06-29",
+    "dataPrevistaDevolucao": "2026-07-13",
+    "status": "ATIVO"
+  },
+  {
+    "id": "58d37601-92aa-48db-9de4-ac2d05105c1a",
+    "isbnLivro": "3e03d661-b6d5-4d92-913b-a08229d78afa",
+    "idUsuario": "86af2494-0b93-445c-99f7-0ce7ca6f1d01",
+    "dataEmprestimo": "2026-06-29",
+    "dataPrevistaDevolucao": "2026-07-13",
+    "dataDevolucaoReal": "2026-06-29",
+    "status": "DEVOLVIDO"
+  },
+  {
+    "id": "d58fe622-4860-43c6-ae9b-43e4ad10278f",
+    "isbnLivro": "7527b73b-0899-4862-a190-5454e0406cc2",
+    "idUsuario": "cf5e34be-e5a7-414c-b3ea-b6413138c956",
+    "dataEmprestimo": "2026-06-29",
+    "dataPrevistaDevolucao": "2026-07-13",
+    "dataDevolucaoReal": "2026-06-29",
+    "status": "DEVOLVIDO"
+  },
+  {
+    "id": "0774687a-5478-4cee-81cc-5a4711e1b88c",
+    "isbnLivro": "977a43ec-70fe-404f-9d6c-559fa32fcb2b",
+    "idUsuario": "378dc3f4-92ad-4a40-ac62-43f7159e4283",
+    "dataEmprestimo": "2026-06-29",
+    "dataPrevistaDevolucao": "2026-07-13",
+    "status": "ATIVO"
+  },
+  {
+    "id": "e3c4c517-e87b-48c5-86c2-30a9f5e72ef9",
+    "isbnLivro": "bc82919c-9901-4df9-b8b1-f808748bf968",
+    "idUsuario": "56fbfd56-5167-4a72-a2fc-ae316404f3f6",
+    "dataEmprestimo": "2026-06-29",
+    "dataPrevistaDevolucao": "2026-07-13",
+    "dataDevolucaoReal": "2026-06-29",
+    "status": "DEVOLVIDO"
+  },
+  {
+    "id": "86abe10d-02bf-40d8-94a8-a1b75727fbab",
+    "isbnLivro": "f2e438e7-c306-4600-bab0-eb799546a7c3",
+    "idUsuario": "e1b55632-1626-4901-b312-45650839544c",
+    "dataEmprestimo": "2026-06-29",
+    "dataPrevistaDevolucao": "2026-07-13",
+    "status": "ATIVO"
+  }
+]

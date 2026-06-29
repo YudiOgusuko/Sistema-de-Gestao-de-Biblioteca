@@ -1,0 +1,62 @@
+[
+  {
+    "id": "4cbc9110-3f62-46bb-9438-2a783a930429",
+    "nome": "Pedro Ken",
+    "email": "pedroK19@gmail.com",
+    "dataDeCadastro": "2026-06-29"
+  },
+  {
+    "id": "2a8b47e4-7bc3-421f-a2b4-aa42e511dceb",
+    "nome": "Paula Soarez",
+    "email": "paulinhaSZ@gmail.com",
+    "dataDeCadastro": "2026-06-29"
+  },
+  {
+    "id": "56fbfd56-5167-4a72-a2fc-ae316404f3f6",
+    "nome": "Julia Ribeiro",
+    "email": "ribeiroJulis@gmail.com",
+    "dataDeCadastro": "2026-06-29"
+  },
+  {
+    "id": "378dc3f4-92ad-4a40-ac62-43f7159e4283",
+    "nome": "José Angular",
+    "email": "joseEE@gmail.com",
+    "dataDeCadastro": "2026-06-29"
+  },
+  {
+    "id": "9e8182b0-d3cc-479e-9cb2-72a8493dde2e",
+    "nome": "Nikolas Conti",
+    "email": "NKConti22019@gmail.com",
+    "dataDeCadastro": "2026-06-29"
+  },
+  {
+    "id": "597908ce-9e6c-4df3-a1b5-2774f55aa5e8",
+    "nome": "Pedro",
+    "email": "Pedrinho_2201@gmail.com",
+    "dataDeCadastro": "2026-06-29"
+  },
+  {
+    "id": "e1b55632-1626-4901-b312-45650839544c",
+    "nome": "Vinicios Criato",
+    "email": "ViniCT2201_@gmail.com",
+    "dataDeCadastro": "2026-06-29"
+  },
+  {
+    "id": "64efc021-b3e4-4f42-ab4f-422f3d0b12f8",
+    "nome": "Ruan Da Silva",
+    "email": "RuanDS_0913@gmail.com",
+    "dataDeCadastro": "2026-06-29"
+  },
+  {
+    "id": "c3401229-ea57-4d92-ac1b-eebe56294be8",
+    "nome": "Ana Frey",
+    "email": "AnaF2020_@gmail.com",
+    "dataDeCadastro": "2026-06-29"
+  },
+  {
+    "id": "77125a4f-49b8-4de3-ab7d-c40510942bd8",
+    "nome": "Evelyn Furlan",
+    "email": "eva_22281@gmail.com",
+    "dataDeCadastro": "2026-06-29"
+  }
+]
