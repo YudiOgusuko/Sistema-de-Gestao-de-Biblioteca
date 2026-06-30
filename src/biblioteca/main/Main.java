@@ -246,7 +246,6 @@ public class Main {
                 new ProcessBuilder("clear").inheritIO().start().waitFor();
             }
         } catch (Exception e) {
-            // fallback: imprime várias linhas em branco
             System.out.println("\n".repeat(50));
         }
     }

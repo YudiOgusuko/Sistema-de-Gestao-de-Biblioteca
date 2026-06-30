@@ -9,7 +9,6 @@ import java.util.List;
 
 public class ArquivoJson {
 
-    //serve para salvar QUALQUER lista num arquivo .json
     public static <T> void salvar(List<T> lista, String caminhoArquivo) {
 
         try (BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(caminhoArquivo, false))) {
@@ -19,7 +18,6 @@ public class ArquivoJson {
         }
     }
 
-    // lê um arquivo .json e transforma de volta numa lista do tipo correto
     public static <T> List<T> carregar(String caminhoArquivo, Type tipo) {
 
         File file = new File(caminhoArquivo);

@@ -8,15 +8,13 @@ import java.util.UUID;
 
 public class Emprestimos {
 
-    //essa classe conecta o Usuário com o Livro
-
-    private String id;                              //UUID gerado automaticamente
-    private String isbnLivro;                       //referência ao Livro (não guarde o objeto inteiro, só o ISBN)
-    private String idUsuario;                       //referência ao Usuário
-    private LocalDate dataEmprestimo;               //quando foi emprestado
-    private LocalDate dataPrevistaDevolucao;        //emprestimo +14 dias -> regra
-    private LocalDate dataDevolucaoReal;            // começa "null", preenchida quando devolvido
-    private StatusEmprestimos status;               //"ATIVO" ou "DEVOLVIDO"
+    private String id;
+    private String isbnLivro;
+    private String idUsuario;
+    private LocalDate dataEmprestimo;
+    private LocalDate dataPrevistaDevolucao;
+    private LocalDate dataDevolucaoReal;
+    private StatusEmprestimos status;
 
     public Emprestimos(String isbnLivro, String idUsuario, LocalDate dataEmprestimo, LocalDate dataPrevistaDevolucao, StatusEmprestimos status) {
         this.id = UUID.randomUUID().toString();

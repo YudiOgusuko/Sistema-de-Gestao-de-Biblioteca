@@ -9,7 +9,7 @@ public class Livro {
     private String autor;
     private int anoDePublicacao;
     private String genero;
-    private boolean disponivel;             //começa como true, vira false quando emprestado
+    private boolean disponivel;
 
     public Livro(String titulo, String autor, int anoDePublicacao, String genero) {
         this.isbn = UUID.randomUUID().toString();
