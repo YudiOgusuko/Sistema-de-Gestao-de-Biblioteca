@@ -3,6 +3,7 @@ package biblioteca.service;
 import biblioteca.exception.LivroJaCadastradoException;
 import biblioteca.exception.LivroNaoEncontradoException;
 import biblioteca.model.Livro;
+import biblioteca.model.Usuario;
 import biblioteca.repository.RepositorioLivro;
 
 import java.util.Comparator;
@@ -29,9 +30,15 @@ public class LivroService  {
     }
 
     public List<Livro> listarTodos() {
-       return repositorioLivro.listarTodos().stream()
+        List<Livro> lista = repositorioLivro.listarTodos().stream()
                .sorted(Comparator.comparing(Livro::getTitulo))
                .toList();
+
+        if(lista.isEmpty()) {
+            System.out.println("Nenhum Livro no Sistema.");
+        }
+
+        return lista;
     }
 
     public List<Livro> listarDisponiveis() {

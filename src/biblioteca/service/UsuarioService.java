@@ -30,8 +30,14 @@ public class UsuarioService {
     }
 
     public List<Usuario> listarTodos() {
-        return repositorioUsuario.listarTodos().stream()
+        List<Usuario> lista = repositorioUsuario.listarTodos().stream()
                 .sorted(Comparator.comparing(Usuario::getNome))
                 .toList();
+
+        if(lista.isEmpty()) {
+            System.out.println("Nenhum Usuário no Sistema.");
+        }
+
+        return lista;
     }
 }

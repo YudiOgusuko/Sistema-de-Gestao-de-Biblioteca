@@ -71,15 +71,27 @@ public class EmprestimoService {
     }
 
     public List<Emprestimos> listarEmprestimosDoUsuario(String idUsuario) {
-        return repositorioEmprestimos.listarTodos().stream()
+        List<Emprestimos> lista = repositorioEmprestimos.listarTodos().stream()
                 .filter(idUser -> idUser.getIdUsuario().equals(idUsuario))
                 .toList();
+
+        if(lista.isEmpty()) {
+            System.out.println("Nenhum Empréstimo no Sistema.");
+        }
+
+        return lista;
     }
 
     public List<Emprestimos> listarEmprestimosAtrasados() {
-        return repositorioEmprestimos.listarTodos().stream()
+        List<Emprestimos> lista = repositorioEmprestimos.listarTodos().stream()
                 .filter(status -> status.getStatus().equals(StatusEmprestimos.ATIVO))
                 .filter(devolucao -> devolucao.getDataPrevistaDevolucao().isBefore(localDate))
                 .toList();
+
+        if(lista.isEmpty()) {
+            System.out.println("Nenhum Empréstimo Atrasado no Sistema.");
+        }
+
+        return lista;
     }
 }

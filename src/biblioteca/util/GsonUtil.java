@@ -7,7 +7,6 @@ import java.time.format.DateTimeFormatter;
 
 public class GsonUtil {
 
-
     public static final Gson GSON = new GsonBuilder()
 
             .registerTypeAdapter(LocalDate.class, (JsonSerializer<LocalDate>)

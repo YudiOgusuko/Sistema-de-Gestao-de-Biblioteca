@@ -1,7 +1,5 @@
 package biblioteca.util;
 
-import com.google.gson.Gson;
-
 import java.io.*;
 import java.lang.reflect.Type;
 import java.util.ArrayList;
